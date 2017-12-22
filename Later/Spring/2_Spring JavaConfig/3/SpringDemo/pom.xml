@@ -5,7 +5,7 @@
 	<artifactId>SpringHelloWorld</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>SpringHelloWorld</name>
+	<name>SpringDemo</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
