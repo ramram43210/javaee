@@ -6,7 +6,6 @@ http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 	<bean id="fruitShop" class="com.ram.core.FruitShop">
 
 		<constructor-arg type="String" value="Fruit Mart"></constructor-arg>
-
 		<constructor-arg type="java.util.List">
 			<list>
 				<value>apple</value>

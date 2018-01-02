@@ -7,13 +7,13 @@ public class FruitShop
 	private String shopName;
 	private List<String> listOfAvailableFruits;
 
-	public FruitShop(String shopName, List<String> listOfFruits)
+	public FruitShop(String shopName, List<String> listOfAvailableFruits)
 	{
 		System.out.println(
-				"FruitShop(String shopName, List<String> listOfFruits) "
+				"FruitShop(String shopName, List<String> listOfAvailableFruits) "
 						+ "constructor is called by the Spring container");
 		this.shopName = shopName;
-		this.listOfAvailableFruits = listOfFruits;
+		this.listOfAvailableFruits = listOfAvailableFruits;
 	}
 
 	public void displayFruitShopInfo()
