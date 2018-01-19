@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="fruitSeller1" class="com.ram.model.FruitSeller">
+		<property name="name" value="Peter"></property>
+		<property name="emailId" value="Peter@yahoo.com"></property>
+	</bean>
+
+	<bean id="fruitSeller2" class="com.ram.model.FruitSeller">
+		<property name="name" value="John"></property>
+		<property name="emailId" value="John@gmail.com"></property>
+	</bean>
+
+	<bean id="fruit1" class="com.ram.model.Fruit">
+		<property name="name" value="Apple"></property>
+		<property name="color" value="Red"></property>
+	</bean>
+
+	<bean id="fruit2" class="com.ram.model.Fruit">
+		<property name="name" value="Grapes"></property>
+		<property name="color" value="Violet"></property>
+	</bean>
+
+	<bean id="fruitInfo" class="com.ram.core.FruitInfo">
+
+		<property name="mapOfFruitSellerAndFruit">
+			<map>
+				<entry key-ref="fruitSeller1" value-ref="fruit1"></entry>
+				<entry key-ref="fruitSeller2" value-ref="fruit2"></entry>
+			</map>
+		</property>
+
+	</bean>
+
+</beans>
