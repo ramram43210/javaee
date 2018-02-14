@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="address" class="com.ram.model.Address">
+		<constructor-arg value="Chennai"></constructor-arg>
+		<constructor-arg value="Tamil Nadu"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean>
+
+	<bean id="employee" class="com.ram.model.Employee" autowire="byType">
+		<property name="id" value="100"></property>
+		<property name="name" value="Peter"></property>
+	</bean>
+
+</beans>
+
