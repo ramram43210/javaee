@@ -4,18 +4,16 @@
 http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 
 	<bean id="employee" class="com.ram.model.Employee">
-		<property name="id" value="100"></property>
-		<property name="name" value="Peter"></property>
 
-		<property name="address">
+		<constructor-arg type="int" value="36"></constructor-arg>
+		<constructor-arg type="String" value="Peter"></constructor-arg>
 
+		<constructor-arg>
 			<bean class="com.ram.model.Address">
 				<property name="city" value="TamilNadu"></property>
 				<property name="state" value="Chennai"></property>
 			</bean>
-
-		</property>
-
+		</constructor-arg>
 
 	</bean>
 
