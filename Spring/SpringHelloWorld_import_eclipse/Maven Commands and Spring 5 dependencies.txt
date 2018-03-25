@@ -1,0 +1,34 @@
+
+Generate project structure with Maven:
+
+mvn archetype:generate -DgroupId=com.ram.core -DartifactId=SpringHelloWorld -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+Convert to Eclipse project:
+
+mvn eclipse:eclipse
+
+Compile:
+
+mvn clean compile
+
+
+Spring 5 dependencies:
+
+<properties>
+	<spring.version>5.0.2.RELEASE</spring.version>
+</properties>
+
+
+<!-- Spring 5 dependencies -->
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-core</artifactId>
+	<version>${spring.version}</version>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>${spring.version}</version>
+</dependency>
