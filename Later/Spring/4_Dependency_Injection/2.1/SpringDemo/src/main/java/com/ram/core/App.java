@@ -17,7 +17,7 @@ public class App
 		// 1 st way of getting employee bean
 		Object object = factory.getBean("employee");
 		Employee employee = (Employee) object;
-		System.out.println("Got employee object from the BeanFactory");
+		System.out.println("Got employee object from the BeanFactory(Spring Container);
 		employee.employeeDetails();
 
 		// 2nd way of getting employee bean
