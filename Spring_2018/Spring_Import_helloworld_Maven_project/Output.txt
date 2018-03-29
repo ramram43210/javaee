@@ -1,0 +1,7 @@
+Mar 27, 2018 8:59:11 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14514713: startup date [Tue Mar 27 08:59:11 IST 2018]; root of context hierarchy
+Mar 27, 2018 8:59:11 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringBeans.xml]
+setName(String name) method is called, Peter
+Got helloWorldObj from the ApplicationContext(Spring Container)
+Spring 5 : Hello World! Peter
