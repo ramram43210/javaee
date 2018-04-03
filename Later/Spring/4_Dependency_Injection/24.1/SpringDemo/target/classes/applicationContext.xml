@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="fruitShop" class="com.ram.core.FruitShop">
+		
+		<property name="shopName" value="Fruit Mart"></property>
+		<property name="fruitsArray">
+			<array>
+				<value>apple</value>
+				<value>pineapple</value>
+				<value>orange</value>
+			</array>
+		</property>
+
+	</bean>
+
+</beans>

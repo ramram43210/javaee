@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="fruit1" class="com.ram.model.Fruit">
+		<property name="name" value="Apple"></property>
+		<property name="color" value="Red"></property>
+	</bean>
+
+	<bean id="fruit2" class="com.ram.model.Fruit">
+		<property name="name" value="Grapes"></property>
+		<property name="color" value="Violet"></property>
+	</bean>
+
+	<bean id="fruitShop" class="com.ram.core.FruitShop">
+		<property name="shopName" value="Fruit Mart"></property>
+		<property name="fruitArray">
+			<array>
+				<ref bean="fruit1" />
+				<ref bean="fruit2" />
+			</array>
+		</property>
+	</bean>
+
+</beans>
