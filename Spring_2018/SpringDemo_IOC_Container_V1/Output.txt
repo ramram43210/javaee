@@ -1,0 +1,15 @@
+************* Using BeanFactory ************* 
+Apr 05, 2018 9:44:21 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Got employee object from the BeanFactory(Spring Container)
+Employee Name =  Peter
+
+************* Using ApplicationContext ******* 
+Apr 05, 2018 9:44:22 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26ba2a48: startup date [Thu Apr 05 09:44:22 IST 2018]; root of context hierarchy
+Apr 05, 2018 9:44:22 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee Name =  Peter
