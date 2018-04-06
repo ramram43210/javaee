@@ -1,0 +1,4 @@
+com\ram\eventhandler\CustomEventHandler.class
+com\ram\eventpublisher\CustomEventPublisher.class
+com\ram\events\CustomEvent.class
+com\ram\core\App.class
