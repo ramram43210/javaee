@@ -1,0 +1,17 @@
+Apr 07, 2018 10:14:54 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Got employee object from the BeanFactory(Spring Container)
+Employee Name =  Peter
+
+Got employee object from the BeanFactory(Spring Container)
+Employee Name =  Peter
+
+Got employee object from the BeanFactory(Spring Container)
+Employee Name =  Peter
+
+is employee bean available? = true
+
+is employee bean Singleton[always return the same instance]? = true
+
+is employee bean isPrototype[always return independent instances]? = false
