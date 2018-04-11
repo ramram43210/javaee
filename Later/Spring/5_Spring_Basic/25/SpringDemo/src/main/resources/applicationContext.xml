@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="employee" class="com.ram.model.Employee">
+		<property name="name" value="Peter" />
+	</bean>
+
+	<bean id="fruit" class="com.ram.model.Fruit">
+		<property name="name" value="Apple" />
+	</bean>
+
+	<!-- This post processor methods are called for every bean -->
+	<bean class="com.ram.postprocessor.MyBeanPostProcessor" />
+</beans>
