@@ -2,7 +2,7 @@ package com.ram.core;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.ram.factoryaware.BeanFactoryAwareImpl;
+import com.ram.aware.BeanNameAwareImpl;
 
 public class App
 {
@@ -11,12 +11,10 @@ public class App
 		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(
 				"applicationContext.xml");
 
-		BeanFactoryAwareImpl BeanFactoryAwareImplsdfdf = applicationContext
-				.getBean("beanFactoryAware", BeanFactoryAwareImpl.class);
+		BeanNameAwareImpl beanNameAwareImpl = applicationContext
+				.getBean("beanNameAware", BeanNameAwareImpl.class);
 
-		applicationContextAwareImpl.displayEmployeeDetails();
-
+		System.out.println("beanNameAwareImpl = "+beanNameAwareImpl);
 		applicationContext.close();
 	}
 }
-
