@@ -1,0 +1,8 @@
+Apr 16, 2018 8:16:12 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Apr 16 08:16:12 IST 2018]; root of context hierarchy
+Apr 16, 2018 8:16:12 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+Employee(String name) constructor is called by the Spring container
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee [id=0, name=Peter]
