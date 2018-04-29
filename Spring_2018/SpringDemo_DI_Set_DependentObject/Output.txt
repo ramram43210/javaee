@@ -1,0 +1,10 @@
+Apr 27, 2018 9:28:32 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Fri Apr 27 09:28:32 IST 2018]; root of context hierarchy
+Apr 27, 2018 9:28:32 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+Fruit(String name, String color) constructor is called by the Spring container
+Fruit(String name, String color) constructor is called by the Spring container
+FruitShop(String shopName, Set<Fruit> setOfAvailableFruits) constructor is called by the Spring container
+---------------------------------------
+Got fruitShop object from the ApplicationContext(Spring Container)
+FruitShop [shopName=Fruit Mart, setOfAvailableFruits=[Fruit [name=Apple, color=Red], Fruit [name=Grapes, color=Violet]]]
