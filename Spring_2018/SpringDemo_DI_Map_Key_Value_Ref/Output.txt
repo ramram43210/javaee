@@ -1,0 +1,14 @@
+Apr 30, 2018 9:47:13 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Apr 30 09:47:13 IST 2018]; root of context hierarchy
+Apr 30, 2018 9:47:13 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+FruitSeller(String name, String emailId) constructor is called by the Spring container
+FruitSeller(String name, String emailId) constructor is called by the Spring container
+Fruit(String name, String color) constructor is called by the Spring container
+Fruit(String name, String color) constructor is called by the Spring container
+FruitInfo(Map<FruitSeller, Fruit> mapOfFruitSellerAndFruit) constructor is called by the Spring container
+---------------------------------------
+Got fruitInfo object from the ApplicationContext(Spring container)
+FruitInfo [mapOfFruitSellerAndFruit={FruitSeller [name=Peter, emailId=Peter@yahoo.com]=Fruit [name=Apple, color=Red], FruitSeller [name=John, emailId=John@gmail.com]=Fruit [name=Grapes, color=Violet]}]
+FruitSeller = FruitSeller [name=Peter, emailId=Peter@yahoo.com], Fruit = Fruit [name=Apple, color=Red]
+FruitSeller = FruitSeller [name=John, emailId=John@gmail.com], Fruit = Fruit [name=Grapes, color=Violet]
