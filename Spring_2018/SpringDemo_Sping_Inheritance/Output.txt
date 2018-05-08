@@ -1,0 +1,12 @@
+May 08, 2018 10:12:27 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Tue May 08 10:12:27 IST 2018]; root of context hierarchy
+May 08, 2018 10:12:28 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+Person(int numberOfLegs, int numberOfHands) constructor is called by the Spring container
+Person(int numberOfLegs, int numberOfHands, int id, String name) constructor is called by the Spring container
+---------------------------------------
+Got person object from the ApplicationContext(Spring Container)
+Person [id=0, name=null, numberOfLegs=2, numberOfHands=2]
+---------------------------------------
+Got personPeter object from the ApplicationContext(Spring Container)
+Person [id=200, name=Peter, numberOfLegs=2, numberOfHands=2]
