@@ -1,0 +1,7 @@
+May 10, 2018 9:59:37 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Thu May 10 09:59:37 IST 2018]; root of context hierarchy
+May 10, 2018 9:59:37 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee [id=100, name=Peter, address=Address [city=Chennai, state=TamilNadu]]
