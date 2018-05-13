@@ -1,0 +1,9 @@
+May 12, 2018 8:55:28 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sat May 12 08:55:28 IST 2018]; root of context hierarchy
+May 12, 2018 8:55:28 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+setShopName(String shopName) is called by the Spring Container
+setAvailableFruitsSet(Set<String> availableFruitsSet) is called by the Spring Container
+---------------------------------------
+Got fruitShop object from the ApplicationContext(SpringContainer)
+FruitShop [shopName=Fruit Mart, availableFruitsSet=[apple, pineapple, orange]]
