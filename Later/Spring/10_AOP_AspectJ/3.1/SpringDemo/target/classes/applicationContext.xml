@@ -19,10 +19,10 @@
 		<aop:aspect id="aspectLoggging" ref="logAspect">
 
 			<!-- @After -->
-			<aop:pointcut id="pointCutBefore"
+			<aop:pointcut id="pointCutAfter"
 				expression="execution(* com.ram.service.EmployeeService.addEmployee()))" />
 
-			<aop:after method="logAfter" pointcut-ref="pointCutBefore" />
+			<aop:after method="logAfter" pointcut-ref="pointCutAfter" />
 
 		</aop:aspect>
 
