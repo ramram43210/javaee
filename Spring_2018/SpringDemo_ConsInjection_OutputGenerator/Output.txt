@@ -1,0 +1,8 @@
+Jun 24, 2018 9:35:03 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sun Jun 24 09:35:03 IST 2018]; root of context hierarchy
+Jun 24, 2018 9:35:03 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Got outputHelper object from the ApplicationContext(Spring container)
+com.ram.core.impl.JsonOutputGenerator
+Generate Json file.
