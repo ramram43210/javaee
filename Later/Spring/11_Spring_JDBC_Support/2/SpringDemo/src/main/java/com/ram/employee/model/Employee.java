@@ -1,4 +1,4 @@
-package com.ram.customer.model;
+package com.ram.employee.model;
 
 public class Employee
 {

@@ -3,8 +3,8 @@ package com.ram.core;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.ram.customer.dao.EmploeyeeDAO;
-import com.ram.customer.model.Employee;
+import com.ram.employee.dao.EmploeyeeDAO;
+import com.ram.employee.model.Employee;
 
 public class App
 {
