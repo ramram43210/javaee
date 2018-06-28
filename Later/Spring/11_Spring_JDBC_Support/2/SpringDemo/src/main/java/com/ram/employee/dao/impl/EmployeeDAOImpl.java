@@ -1,4 +1,4 @@
-package com.ram.customer.dao.impl;
+package com.ram.employee.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 import javax.sql.DataSource;
 
-import com.ram.customer.dao.EmploeyeeDAO;
-import com.ram.customer.model.Employee;
+import com.ram.employee.dao.EmploeyeeDAO;
+import com.ram.employee.model.Employee;
 
 public class EmployeeDAOImpl implements EmploeyeeDAO
 {
