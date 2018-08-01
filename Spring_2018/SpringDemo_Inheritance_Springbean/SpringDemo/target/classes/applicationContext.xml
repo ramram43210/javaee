@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="baseEmployeeJapan" class="com.ram.model.Employee">
+		<property name="countryName" value="Japan" />
+	</bean>
+
+	<bean id="employee1" class="com.ram.model.Employee" parent="baseEmployeeJapan">
+		<property name="id" value="32" />
+		<property name="name" value="Peter" />
+	</bean>
+
+	<bean id="employee2" class="com.ram.model.Employee" parent="baseEmployeeJapan">
+		<property name="id" value="33" />
+		<property name="name" value="John" />
+	</bean>
+
+</beans>

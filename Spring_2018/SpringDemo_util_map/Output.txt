@@ -1,0 +1,10 @@
+Jul 30, 2018 9:46:08 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Jul 30 09:46:08 IST 2018]; root of context hierarchy
+Jul 30, 2018 9:46:08 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Got fruitShop object from the ApplicationContext(Spring Container)
+FruitShop [shopName=Fruit Mart, mapOfAvailableFruits={1=Apple, 2=Grapes}]
+Fruit ShopName = Fruit Mart
+Fruit Id = 1, Fruit Name = Apple
+Fruit Id = 2, Fruit Name = Grapes
