@@ -1,0 +1,11 @@
+Aug 06, 2018 10:35:53 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Aug 06 10:35:53 IST 2018]; root of context hierarchy
+Aug 06, 2018 10:35:53 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+inside afterPropertiesSet().  
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee [id=100, name=Peter]
+Aug 06, 2018 10:35:54 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Aug 06 10:35:53 IST 2018]; root of context hierarchy
+Inside destroy(), Performed clean up tasks.
