@@ -1,0 +1,10 @@
+Aug 12, 2018 1:26:05 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sun Aug 12 13:26:05 IST 2018]; root of context hierarchy
+Aug 12, 2018 1:26:05 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+setMessageSource(MessageSource messageSource) is called by the Spring Container
+messageSourceAwareImpl = com.ram.aware.MessageSourceAwareImpl@1ce92674
+Greeting in English = hello
+Greeting in French  = Bonjour
+Aug 12, 2018 1:26:06 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sun Aug 12 13:26:05 IST 2018]; root of context hierarchy

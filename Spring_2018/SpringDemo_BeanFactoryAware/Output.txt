@@ -1,0 +1,9 @@
+Aug 11, 2018 11:46:52 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sat Aug 11 11:46:52 IST 2018]; root of context hierarchy
+Aug 11, 2018 11:46:52 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+setBeanFactory method called by the Spring Container
+Got employee object from the BeanFactory(Spring Container) = Employee [name=Peter]
+is employee object Singleton? = true
+Aug 11, 2018 11:46:53 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sat Aug 11 11:46:52 IST 2018]; root of context hierarchy

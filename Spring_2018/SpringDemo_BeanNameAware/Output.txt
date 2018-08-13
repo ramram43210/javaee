@@ -1,0 +1,9 @@
+Aug 12, 2018 12:10:47 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sun Aug 12 12:10:47 IST 2018]; root of context hierarchy
+Aug 12, 2018 12:10:47 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+setBeanName(String beanName) is called by the Spring Container
+Bean name = beanNameAware
+beanNameAwareImpl = com.ram.aware.BeanNameAwareImpl@5c7fa833
+Aug 12, 2018 12:10:47 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Sun Aug 12 12:10:47 IST 2018]; root of context hierarchy

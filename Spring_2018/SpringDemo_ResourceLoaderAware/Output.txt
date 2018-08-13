@@ -1,0 +1,12 @@
+Aug 13, 2018 9:46:49 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Aug 13 09:46:49 IST 2018]; root of context hierarchy
+Aug 13, 2018 9:46:49 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+setResourceLoader(ResourceLoader resourceLoader) is called by the Spring Container
+resourceLoaderAwareImpl = com.ram.aware.ResourceLoaderAwareImpl@5c7fa833
+Names from the files are..
+Peter
+Ram
+Juli
+Aug 13, 2018 9:46:50 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@5b37e0d2: startup date [Mon Aug 13 09:46:49 IST 2018]; root of context hierarchy
