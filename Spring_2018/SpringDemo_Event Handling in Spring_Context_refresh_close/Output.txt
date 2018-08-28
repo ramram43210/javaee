@@ -1,0 +1,17 @@
+Aug 26, 2018 8:38:10 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sun Aug 26 08:38:10 IST 2018]; root of context hierarchy
+Aug 26, 2018 8:38:10 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+ContextRefreshedEvent Received = org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sun Aug 26 08:38:10 IST 2018]; root of context hierarchy]
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee Name =  Peter
+Aug 26, 2018 8:38:11 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sun Aug 26 08:38:11 IST 2018]; root of context hierarchy
+Aug 26, 2018 8:38:11 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+ContextRefreshedEvent Received = org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sun Aug 26 08:38:11 IST 2018]; root of context hierarchy]
+---------------------------------------
+ContextClosedEvent Received = org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sun Aug 26 08:38:11 IST 2018]; root of context hierarchy]
+Aug 26, 2018 8:38:11 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sun Aug 26 08:38:11 IST 2018]; root of context hierarchy

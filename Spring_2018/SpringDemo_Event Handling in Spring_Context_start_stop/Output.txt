@@ -1,0 +1,10 @@
+Aug 25, 2018 10:35:16 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@610694f1: startup date [Sat Aug 25 10:35:16 IST 2018]; root of context hierarchy
+Aug 25, 2018 10:35:16 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+ContextStartedEvent Received = org.springframework.context.event.ContextStartedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@610694f1: startup date [Sat Aug 25 10:35:16 IST 2018]; root of context hierarchy]
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee Name =  Peter
+---------------------------------------
+ContextStoppedEvent Received = org.springframework.context.event.ContextStoppedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@610694f1: startup date [Sat Aug 25 10:35:16 IST 2018]; root of context hierarchy]
