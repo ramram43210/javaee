@@ -1,0 +1,8 @@
+Sep 14, 2018 9:51:32 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@736e9adb: startup date [Fri Sep 14 09:51:32 IST 2018]; root of context hierarchy
+Sep 14, 2018 9:51:32 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+MedicalInsurence [insurencePolicyNumber=10, insuredAmount=15000, bonusAmount=2000]
+
+Employee [id=100, name=Peter, testAdd=17000, testSubtraction=13000, testMultiplication=30000000, testDivision=7, testModulus=1000, testExponentialPower=9223372036854775807]

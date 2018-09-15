@@ -1,0 +1,8 @@
+Sep 15, 2018 9:34:11 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@736e9adb: startup date [Sat Sep 15 09:34:11 IST 2018]; root of context hierarchy
+Sep 15, 2018 9:34:12 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+AddressInfo [addressList=[B220-East Street-London, A220-West Street-London, C220-North Street-London]]
+
+Employee [id=10, name=Peter, firstAddress=B220-East Street-London, secondAddress=A220-West Street-London]
