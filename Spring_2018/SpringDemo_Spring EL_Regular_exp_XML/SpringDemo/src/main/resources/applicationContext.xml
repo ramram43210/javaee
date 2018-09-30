@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<bean id="email" class="com.ram.model.Email">
+		<property name="emailId" value="ram@yahoo.com"></property>
+		<property name="contentId" value="100"></property>
+	</bean>
+
+	<bean id="employee" class="com.ram.model.Employee">
+		<property name="id" value="10"></property>
+		<property name="name" value="Peter"></property>
+		<property name="isValidEmail" value="#{email.emailId matches employee.emailRegEx}"></property>
+		<property name="isValidContentId"
+			value="#{email.contentId matches employee.digitRegEx}"></property>
+	</bean>
+
+</beans>
