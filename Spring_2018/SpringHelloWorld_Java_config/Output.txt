@@ -1,0 +1,3 @@
+Sep 29, 2018 10:13:18 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f4da5c3: startup date [Sat Sep 29 10:13:18 IST 2018]; root of context hierarchy
+Hello : Spring5 Hello world

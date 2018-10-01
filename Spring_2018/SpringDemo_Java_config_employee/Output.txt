@@ -1,0 +1,6 @@
+Sep 30, 2018 10:47:21 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f4da5c3: startup date [Sun Sep 30 10:47:21 IST 2018]; root of context hierarchy
+Employee(int id, String name) constructor is called by the Spring container
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee [id=36, name=Peter]
