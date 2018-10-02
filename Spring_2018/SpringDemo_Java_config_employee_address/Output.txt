@@ -1,0 +1,5 @@
+Oct 02, 2018 9:40:30 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f4da5c3: startup date [Tue Oct 02 09:40:30 IST 2018]; root of context hierarchy
+---------------------------------------
+Got employee object from the ApplicationContext(Spring Container)
+Employee [id=100, name=Peter, address=Address [city=TamilNadu, state=Chennai]]
