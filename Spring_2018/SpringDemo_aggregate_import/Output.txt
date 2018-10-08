@@ -1,0 +1,12 @@
+Oct 07, 2018 7:32:15 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f4da5c3: startup date [Sun Oct 07 07:32:15 IST 2018]; root of context hierarchy
+In EmployeeConfig employee() is called by the Spring container
+com.ram.core.Employee, Employee(String name) constructor is called, Peter
+In CustomerConfig employee() is called by the Spring container
+com.ram.core.Customer, Customer(String name) constructor is called, John
+---------------------------------------
+Got employee object from the ApplicationContext
+Employee Name =  Peter
+---------------------------------------
+Got customer object from the ApplicationContext
+Customer Name =  John

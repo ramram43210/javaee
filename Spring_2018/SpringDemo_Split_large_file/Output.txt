@@ -1,0 +1,16 @@
+Oct 06, 2018 9:18:50 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a2e4553: startup date [Sat Oct 06 09:18:50 IST 2018]; root of context hierarchy
+Oct 06, 2018 9:18:51 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringBeans.xml]
+Oct 06, 2018 9:18:51 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [config/customer.xml]
+Oct 06, 2018 9:18:51 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [config/employee.xml]
+com.ram.core.Customer, setName(String name) method is called John David
+com.ram.core.Employee, setName(String name) method is called Peter
+---------------------------------------
+Got employee object from the ApplicationContext
+Employee Name =  Peter
+---------------------------------------
+Got customer object from the ApplicationContext
+Customer Name =  John David
