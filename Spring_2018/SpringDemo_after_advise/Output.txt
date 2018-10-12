@@ -1,0 +1,9 @@
+Oct 12, 2018 8:06:21 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ebc05a6: startup date [Fri Oct 12 08:06:21 IST 2018]; root of context hierarchy
+Oct 12, 2018 8:06:22 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Get Employee Information
+Logging advice is applied after the method getEmployeeName in the target Object com.ram.service.EmployeeService
+28
+returnValue = Peter
