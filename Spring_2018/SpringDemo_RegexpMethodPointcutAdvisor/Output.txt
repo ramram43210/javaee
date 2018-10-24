@@ -1,0 +1,16 @@
+Oct 24, 2018 10:21:08 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ebc05a6: startup date [Wed Oct 24 10:21:08 IST 2018]; root of context hierarchy
+Oct 24, 2018 10:21:09 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Get Employee Name
+----------------------------------------
+AroundAdvice applied before actual method = getEmployeeAge
+Get Employee Age
+obj = 28
+AroundAdvice applied after actual method =  getEmployeeAge
+----------------------------------------
+AroundAdvice applied before actual method = getEmployeeAddress
+Get Employee Address
+obj = A111, East Street
+AroundAdvice applied after actual method =  getEmployeeAddress
