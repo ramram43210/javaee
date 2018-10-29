@@ -1,0 +1,7 @@
+Oct 15, 2018 9:34:53 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ebc05a6: startup date [Mon Oct 15 09:34:53 IST 2018]; root of context hierarchy
+Oct 15, 2018 9:34:53 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+Get Employee Information
+LoggingAdvice applied if exception occurs, exe message = Not a valid age
