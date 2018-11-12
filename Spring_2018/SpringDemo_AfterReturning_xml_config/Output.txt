@@ -1,0 +1,11 @@
+Nov 11, 2018 10:35:40 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32709393: startup date [Sun Nov 11 10:35:40 IST 2018]; root of context hierarchy
+Nov 11, 2018 10:35:41 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+addEmployee() is called
+logAfterReturning() is running!, after addEmployee method
+Method returned value is = Employee Peter information is added successfully
+******
+modifyEmployee() is called
+deleteEmployee() is called
