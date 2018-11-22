@@ -11,7 +11,6 @@ import com.ram.core.model.Employee;
 
 public class App
 {
-
 	public static void main(String[] args) throws IOException
 	{
 		ApplicationContext context = new ClassPathXmlApplicationContext(
@@ -29,15 +28,16 @@ public class App
 		employeeDao.save(employee1);
 
 		Employee employee2 = new Employee();
-		employee2.setFirstName("Peter");
-		employee2.setLastName("david");
-		employee2.setAge(50);
-		employee2.setSalary(90000);
+		employee2.setFirstName("Dave");
+		employee2.setLastName("J");
+		employee2.setAge(58);
+		employee2.setSalary(60000);
 
 		employeeDao.save(employee2);
 
-		Employee employee3 = employeeDao.get(2);
+		Employee employee3 = employeeDao.get(employee2.getId());
 		System.out.println(employee3);
+		
 	}
 
 }

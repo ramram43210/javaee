@@ -13,15 +13,16 @@
 			<value>hibernate.cfg.xml</value>
 		</property>
 	</bean>
-	
+
 	<bean id="hibernateTemplate"
 		class="org.springframework.orm.hibernate3.HibernateTemplate">
 		<property name="sessionFactory">
 			<ref bean="sessionFactory" />
 		</property>
 	</bean>
-	
-	<bean id="employeeDAO" class="com.ram.core.dao.impl.EmployeeDAOImpl">
+
+	<bean id="employeeDAO"
+		class="com.ram.core.dao.impl.EmployeeDAOImpl">
 		<property name="hibernateTemplate">
 			<ref bean="hibernateTemplate" />
 		</property>
@@ -30,9 +31,10 @@
 	<aop:config>
 		<aop:pointcut id="dbOperation"
 			expression="execution(* com.ram.core.dao.impl.EmployeeDAOImpl.*(..))" />
-		<aop:advisor advice-ref="txAdvice"	pointcut-ref="dbOperation" />
+		<aop:advisor advice-ref="txAdvice"
+			pointcut-ref="dbOperation" />
 	</aop:config>
-	
+
 	<tx:advice id="txAdvice"
 		transaction-manager="transactionManager">
 		<tx:attributes>
@@ -42,11 +44,11 @@
 				isolation="DEFAULT" read-only="false" timeout="-1" />
 		</tx:attributes>
 	</tx:advice>
-	
+
 	<bean id="transactionManager"
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
-	
+
 </beans>
  

@@ -26,9 +26,7 @@ public class EmployeeDAOImpl implements EmployeeDAO
 
 		Employee employee = hibernateTemplate.get(Employee.class,
 				new Integer(employeeId));
-
 		return employee;
-
 	}
 
 }
