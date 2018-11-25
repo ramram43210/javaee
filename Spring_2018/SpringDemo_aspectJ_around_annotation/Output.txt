@@ -1,0 +1,14 @@
+Nov 14, 2018 9:27:46 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32709393: startup date [Wed Nov 14 09:27:46 IST 2018]; root of context hierarchy
+Nov 14, 2018 9:27:47 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+logAround() is running!
+hijacked method = addEmployee
+hijacked arguments = [Peter]
+Around before is running!
+addEmployee(String name) method is called
+Around after is running!
+******
+modifyEmployee() is called
+deleteEmployee() method is called

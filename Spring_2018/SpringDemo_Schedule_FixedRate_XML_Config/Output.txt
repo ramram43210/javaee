@@ -1,0 +1,11 @@
+Nov 24, 2018 10:36:48 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4783da3f: startup date [Sat Nov 24 10:36:48 IST 2018]; root of context hierarchy
+Nov 24, 2018 10:36:48 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [Spring-Scheduler.xml]
+Nov 24, 2018 10:36:49 AM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport initialize
+INFO: Initializing ExecutorService  'myScheduler'
+Current time = 10:36:49
+Current time = 10:36:54
+Current time = 10:36:59
+Current time = 10:37:04
+Current time = 10:37:09

@@ -1,0 +1,12 @@
+Nov 13, 2018 9:38:13 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32709393: startup date [Tue Nov 13 09:38:13 IST 2018]; root of context hierarchy
+Nov 13, 2018 9:38:13 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+---------------------------------------
+addEmployee() is called
+logAfterThrowing() is running!, after addEmployee method throwing exception
+exception = java.lang.NullPointerException
+******
+exception message  = null
+modifyEmployee() is called
+deleteEmployee() is called
