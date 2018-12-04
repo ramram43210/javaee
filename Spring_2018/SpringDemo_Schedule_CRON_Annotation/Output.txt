@@ -1,0 +1,10 @@
+Dec 03, 2018 9:45:57 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4783da3f: startup date [Mon Dec 03 09:45:57 IST 2018]; root of context hierarchy
+Dec 03, 2018 9:45:57 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [Spring-Scheduler.xml]
+Dec 03, 2018 9:45:58 AM org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor finishRegistration
+INFO: No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+Current time = 09:46:00
+Current time = 09:47:00
+Current time = 09:48:00
+Current time = 09:49:00
